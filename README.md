@@ -1,4 +1,4 @@
-# instethic_social_media
+# instethic_social_media 📱🌆
 ## Tech Stack used :- flutter
 
 ## Tried to clone from <a href="https://dribbble.com/shots/17122481-Insthetic-Social-Media-Mobile-App/attachments/12217637?mode=media"><strong>Dribble</strong></a> with a little changes (Task 1 of Raahee)
