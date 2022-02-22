@@ -1,16 +1,15 @@
 # instethic_social_media
+## Tech Stack used :- flutter
 
-A new Flutter project.
+## Tried to clone from <a href="https://dribbble.com/shots/17122481-Insthetic-Social-Media-Mobile-App/attachments/12217637?mode=media"><strong>Dribble</strong></a> with a little changes (Task 1 of Raahee)
 
-## Getting Started
+### This is how it looks 💫
+<!-- ### App icon 👁️
+<img src="https://user-images.githubusercontent.com/75165587/149612182-8a76fbef-dfa5-46a5-b8e8-1e3f189997a3.jpeg" width="100"> -->
 
-This project is a starting point for a Flutter application.
+### The App 🤜🔥🤛
+<img src="https://user-images.githubusercontent.com/75165587/155128660-b83669f0-b7d2-45c1-a42b-f7eb3fe2ed8d.png" width="500">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Working 🚀
+https://user-images.githubusercontent.com/75165587/155128792-a771c38b-2a6b-49b6-8646-b05f1c6cac17.mp4
