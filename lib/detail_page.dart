@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:instethic_social_media/comment.dart';
 
-class DetailPage extends StatelessWidget {
+class DetailPage extends StatefulWidget {
   final String img;
   const DetailPage({
     Key? key,
     required this.img,
   }) : super(key: key);
 
+  @override
+  State<DetailPage> createState() => _DetailPageState();
+}
+
+class _DetailPageState extends State<DetailPage> {
+  bool liked = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,12 +24,12 @@ class DetailPage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 20.0),
             child: Hero(
-              tag: 'hi$img',
+              tag: 'hi${widget.img}',
               child: Container(
                 height: MediaQuery.of(context).size.height / 2 - 50,
                 width: double.infinity,
                 child: Image.asset(
-                  img,
+                  widget.img,
                   fit: BoxFit.cover,
                 ),
               ),
@@ -56,10 +62,14 @@ class DetailPage extends StatelessWidget {
                 Row(
                   children: [
                     IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          setState(() {
+                            liked = (liked == true) ? false : true;
+                          });
+                        },
                         icon: Icon(
                           Icons.favorite,
-                          color: Colors.red,
+                          color: (liked) ? Colors.red : Colors.grey,
                         )),
                     IconButton(
                         onPressed: () {},
